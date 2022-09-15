@@ -1,0 +1,72 @@
+[buildPlans.iosevka-sam]
+family = "Iosevka Sam"
+spacing = "normal"
+serifs = "sans"
+no-cv-ss = true
+export-glyph-names = false
+
+  [buildPlans.iosevka-sam.variants]
+  inherits = "ss08"
+
+  [buildPlans.iosevka-sam.variants.design]
+  a = "double-storey-toothless-corner"
+  b = "toothless-corner"
+  d = "toothless-corner-serifless"
+  e = "rounded"
+  f = "tailed"
+  g = "double-storey-open"
+  h = "tailed"
+  i = "flat-tailed"
+  j = "flat-hook-serifless"
+  l = "flat-tailed"
+  m = "earless-corner-double-arch-short-leg"
+  n = "earless-corner-straight"
+  p = "earless-corner"
+  q = "earless-corner"
+  r = "earless-corner"
+  t = "flat-hook"
+  u = "toothless-corner"
+  zero = "dotted-oval"
+  four = "open"
+  asterisk = "flip-penta-low"
+  pilcrow = "low"
+  number-sign = "slanted-open"
+  lig-ltgteq = "slanted"
+
+[buildPlans.iosevka-samskell]
+family = "Iosevka Samskell"
+spacing = "normal"
+serifs = "sans"
+no-cv-ss = true
+export-glyph-names = false
+
+  [buildPlans.iosevka-samskell.variants]
+  inherits = "ss08"
+
+  [buildPlans.iosevka-samskell.ligations]
+  inherits = "haskell"
+  
+  [buildPlans.iosevka-samskell.variants.design]
+  a = "double-storey-toothless-corner"
+  b = "toothless-corner"
+  d = "toothless-corner-serifless"
+  e = "rounded"
+  f = "tailed"
+  g = "double-storey-open"
+  h = "tailed"
+  i = "flat-tailed"
+  j = "flat-hook-serifless"
+  l = "flat-tailed"
+  m = "earless-corner-double-arch-short-leg"
+  n = "earless-corner-straight"
+  p = "earless-corner"
+  q = "earless-corner"
+  r = "earless-corner"
+  t = "flat-hook"
+  u = "toothless-corner"
+  zero = "dotted-oval"
+  four = "open"
+  asterisk = "flip-penta-low"
+  pilcrow = "low"
+  number-sign = "slanted-open"
+  lig-ltgteq = "slanted"
